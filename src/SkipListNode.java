@@ -9,7 +9,7 @@ public class SkipListNode <T>{
     public SkipListNode<T> up,down,left ,right; //上下左右 四个指针
 
     public static final  int HEAD_KEY=Integer.MIN_VALUE ; //负无穷；
-    public static  final int TAIL_KEY=Integer.MAX_VALUE; //负无穷
+    public static  final int TAIL_KEY=Integer.MAX_VALUE; //正无穷
     public SkipListNode(int k, T v){
         key=k;
         value=v;
